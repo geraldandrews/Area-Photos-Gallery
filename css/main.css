@@ -1,0 +1,94 @@
+.info {
+   background: #c9c1ac;
+}
+
+body {
+   color: #c9c1ac;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url(../img/area.jpg)center/cover fixed no-repeat;
+   font-family: 'Playball', cursive;
+}
+
+.primary-color {
+   color: #d3325f;
+}
+
+h1.style {
+   text-align: center;
+   color: white;
+   text-decoration: underline;
+   margin-bottom: 50px;
+}
+
+h2 {
+   color: white;
+   text-align: center;
+   margin-bottom: -100px;
+}
+
+h2.heading {
+   color: white;
+   text-align: center;
+   margin-top: -75px;
+}
+
+.info h2 {
+   word-spacing: 0.6rem;
+}
+
+.info a {
+   transition: color 2s ease-in-out;
+}
+
+.info a:hover {
+   color: #242424;
+}
+
+.img-container {
+   position: relative;
+/*link*/
+   overflow: hidden;
+   background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+   transition: all 2s ease;
+}
+
+.item-img {
+   transition: all 2s ease;
+}
+
+.img-container:hover .item-img {
+   transform: scale(1.2);
+   opacity: 0.5;
+}
+
+.img-link {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #fff;
+   font-size: 1.5rem;
+   border-top: 3px solid #87ceeb;
+   border-bottom: 3px solid #87ceeb;
+   transition: all 2s ease;
+   opacity: 0;
+}
+
+.img-container:hover .img-link {
+   opacity: 1;
+}
+
+.img-link:hover {
+   color: #c9c1ac;
+   border: 3px solid #c9c1ac;
+   background: #c9c1ac;
+   color: #242424;
+}
+
+.img-container:hover {
+   outline: 10px solid #87ceeb;
+   outline-offset: 0.8rem;
+}
+
+
+
